@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./font/iconfont.css">
+</head>
+<header><br>
+    <div class="Head"><a href="./index.html"><p> 我的驿站</p> ——My Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></div>
+    <span class="heading">
+        <a href="./about.html"><b>About</b></a> &nbsp;&nbsp;&nbsp;&nbsp;
+       <a href="./poems.html"><b>Pages</b> </a>&nbsp;&nbsp;&nbsp;&nbsp;
+       <a href="./music.html"><b>Music</b></a>&nbsp;&nbsp;&nbsp;&nbsp;
+       <a href="./album.html"><b>Album</b></a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="./contact.html"><b>Contact</b></a>
+    </span>   
+</header>
+<br><hr>
+<body>
+   <div class="body-1">
+    <div id="player">
+    
+        <!-- 歌曲信息模块 -->
+        <div id="player-content1">
+            <!-- 歌曲名 -->
+            <div class="music-name"></div>
+            <!-- 歌手名 -->
+            <div class="artist-name"></div>
+            <!-- 歌曲时间 -->
+            <div class="time">
+                <!-- 当前播放的时间 -->
+                <div class="current-time"></div>
+                <!-- 歌曲总时长 -->
+                <div class="total-time"></div>
+            </div>
+            <!-- 进度条 -->
+            <div id="s-area">
+                <!-- 鼠标移动到进度条上，显示的时间信息 -->
+                <div id="ins-time"></div>
+                <!-- 鼠标移动到进度条上，进度条变暗部分-->
+                <div id="s-hover"></div>
+                <!-- 表示当前歌曲播放进度的蓝色进度条 -->
+                <div id="seek-bar"></div>
+            </div>
+        </div>
+
+        <!-- 控制模块 -->
+        <div id="player-content2">
+            <!-- 左侧歌曲封面旋转模块 -->
+            <div class="music-imgs">
+                <!-- 封面图 -->
+                <div class="img"></div>
+                <!-- 歌曲缓冲时的提示文字 -->
+                <div id="buffer-box">缓冲…</div>
+            </div>
+            <!-- 右侧歌曲操作模块 -->
+            <div class="player-controls">
+                <!-- 上一首按钮 -->
+                <div class="btn prev iconfont">&#xe698;</div>
+                <!-- 暂停/播放 按钮 -->
+                <div class="btn play-pause icon-bofangqi-bofang iconfont"></div>
+                <!-- 下一首按钮 -->
+                <div class="btn next iconfont">&#xe611;</div>
+            </div>
+        </div>
+        
+    </div>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/index.js"></script>
+    <br><br><br><br><br><br>
+    <HR style="FILTER: alpha(opacity=100,finishopacity=0,style=3)" width="100%" color=#ffffff SIZE=3>
+<div class="music-body">
+<table>
+    <tr>
+        <td> <img src="./图片/music-IV.jpg" alt="" width="200"></td>
+        <td style="text-align: left;"> 《IV》<br>
+             “黑暗中我想到落于海面的雨，浩瀚无边的大海上无声无息地，不为任何人知晓地降落的雨。雨安安静静地叩击海面，鱼们甚至都浑然不觉。”“我一直在想这样的大海，直到有人走来把手轻轻放在我的背上。”<br>
+           ——村上春树 《国境以南太阳以西》 </td>
+    </tr>
+</table>
+<HR style="FILTER: alpha(opacity=100,finishopacity=0,style=3)" width="100%" color=#ffffff SIZE=3>
+<table>
+    <tr>
+        <td>《Merry Christmas Mr. Lawrence》<br>
+            这张专辑是2009年经济衰退社会问题凸显的背景下，日本FOR LIFE公司发行的一张以所谓MessageSong为主的合集。MessageSong不仅指政治抗议歌曲，更多的是指担忧社会、有明确意志、不仅是爱情主题的歌曲，所以也包括励志歌曲，想对社会、年轻人说：想要改变，所以歌唱。</td>
+            <td> <img src="./图片/music-Merry.png" alt="" width="200"></td>
+            </tr>
+</table>
+<HR style="FILTER: alpha(opacity=100,finishopacity=0,style=3)" width="100%" color=#ffffff SIZE=3>
+
+    <table>
+        <tr>
+            <td><img src="./图片/music-theme.jpg" alt="" width="200"></td>
+            <td style="text-align: left;"> 《theme of SSS》<br>
+                一段段平稳的钢琴旋律叙述着他们不公的命运。当钢琴与突如其来的提琴交织在一起的瞬间、属于他们的命运交响曲奏起。他们开始反抗、久久不能平息心中的不忿。最后、接近尾声的交响曲在一切归落土地之时、高亢的旋律回归到最初柔和的钢琴音、人生便安静地落下帷幕。</td>
+                </tr>
+    </table>  
+</div>
+</div>
+</div>
+</body>
+</html>
