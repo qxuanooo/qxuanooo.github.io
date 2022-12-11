@@ -1,0 +1,86 @@
+{
+  "id": "3820157",
+  "name": "个人网站code",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "12932042",
+      "name": "l-about",
+      "font_class": "l-about",
+      "unicode": "e789",
+      "unicode_decimal": 59273
+    },
+    {
+      "icon_id": "15046012",
+      "name": "pc_experience",
+      "font_class": "pc_experience",
+      "unicode": "e6ab",
+      "unicode_decimal": 59051
+    },
+    {
+      "icon_id": "21548696",
+      "name": "Pre employment management",
+      "font_class": "Preemploymentmanagement",
+      "unicode": "e741",
+      "unicode_decimal": 59201
+    },
+    {
+      "icon_id": "2154945",
+      "name": "播放器-播放_44",
+      "font_class": "bofangqi-bofang",
+      "unicode": "e6a4",
+      "unicode_decimal": 59044
+    },
+    {
+      "icon_id": "670161",
+      "name": "YDUI-上一曲",
+      "font_class": "yduishangyiqu",
+      "unicode": "e698",
+      "unicode_decimal": 59032
+    },
+    {
+      "icon_id": "690690",
+      "name": "YDUI-下一曲",
+      "font_class": "yduixiayiqu",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "10562434",
+      "name": "Player, pause",
+      "font_class": "Playerpause",
+      "unicode": "e6aa",
+      "unicode_decimal": 59050
+    },
+    {
+      "icon_id": "5027",
+      "name": "手机",
+      "font_class": "shouji",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "4552970",
+      "name": "邮箱",
+      "font_class": "youxiang",
+      "unicode": "e908",
+      "unicode_decimal": 59656
+    },
+    {
+      "icon_id": "10635169",
+      "name": "定位-位置",
+      "font_class": "position",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "11239058",
+      "name": "微信",
+      "font_class": "weixin",
+      "unicode": "e647",
+      "unicode_decimal": 58951
+    }
+  ]
+}

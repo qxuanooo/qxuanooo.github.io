@@ -1,0 +1,557 @@
+*{ margin:0; padding: 0;}
+body{ font-family: '微软雅黑';font-size: 16px;height: 600px;width: 800px;margin: 0 auto;background-image: url('../图片/gif1.gif');}
+a{text-decoration: none;}
+.poems{line-height: 2;text-align: center;}
+header a:hover{color:brown;}
+.heading a{color:rgb(97, 90, 90);border: 18px; width: 360px;
+    height: 235px;font-size: 23px;
+    background-color:rgb(248,233,233);font-family:"微软雅黑", sans-serif;
+    border-radius: 20%;}
+ .heading a:hover{color:brown;background-color: aliceblue;}
+.heading{text-align:right;}
+.Head{display: inline-block; font:normal 700 30px '华文彩云';text-align: left;}
+.yinyuejieshao{
+    width: 200px;
+    height: 500px;
+}
+.music-body table{
+    font-size: 20px;
+    line-height: 2;
+    font-family: '楷体';
+}
+
+table{
+    font-size: 20px;
+    font-family: '微软雅黑';
+}
+.contact{
+   font-size: 25px;
+    font-family:'方正舒体';
+}
+.contact i{
+   font-size: 35px;
+    vertical-align: middle;
+    fill:currentColor;
+    overflow: hidden;
+}
+.about-table td{
+    width: 500px;
+    height: 70px;
+    text-align: left;  
+}
+.about-table2 th{
+    width: 400px;
+    text-align: left;
+    height: 70px;
+}
+.about-table2 td{
+    width: 400px;
+    color:rgb(97, 90, 90);
+}
+.about i{
+    font-size: 45px;
+    vertical-align:bottom;
+}
+.about-table2 i{
+    font-size: 45px;
+    vertical-align: middle;
+}
+.about{
+    flex:1;
+    overflow: hidden;
+    transition: .5s;
+    margin: 0 20px;
+    box-shadow: 10px 10px 20px rgba(0,0,0,.5);
+    border-radius: 20px;
+    border: 10px solid rgb(214, 225, 246);
+    background-color: rgb(196, 214, 236);
+}
+input,textarea{
+    padding: 9px;
+    border: solid 1px #E5E5E5;
+    outline: 0;
+    box-shadow: rgba(0,0,0,.1) 0px 0px 8px;
+    -moz-box-shadow:rgba(0,0,0,0.1) 0px 0px 8px;
+    -webkit-box-shadow:rgba(0,0,0,0.1) 0px 0px 8px;
+}
+textarea{
+width: 480px;
+height: 150px;
+max-width: 480px;
+line-height: 150%;
+}
+input:hover,textarea:hover,#sbutton:hover,#sbutton:focus, input:focus,textarea:focus{
+    border-color: #C9C9C9;
+}
+#sbutton{
+    width:auto;
+    padding:9px 15px;
+    background: #617798;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.shell{
+    width: 90%;
+    height: 700px;
+    display: flex;
+}
+.box{
+    flex:1;
+    overflow: hidden;
+    transition: .5s;
+    margin: 0 20px;
+    box-shadow: 10px 10px 20px rgba(0,0,0,.5);
+    border-radius: 20px;
+    border: 10px solid #fff;
+    background-color: #fff;
+}
+.box img{
+width: 200%;
+height: 85%;
+object-fit: cover;
+transition: .5s;
+}
+.box span{
+    font:200 20px '微软雅黑';
+    text-align: center;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box:hover{
+    flex-basis: 40%;
+}
+.box:hover img{
+    width: 100%;
+    height: 100%;
+}
+.body-1{
+    width: 800px;
+    background-color: aliceblue;
+}
+.timeline_ul {
+    margin: 0px 20px;
+    /* 清楚li元素自带的小圆点样式 */
+    list-style: none;
+}
+/* 设置li元素浮动并且每个li元素宽度为100%,那么li元素就是自上而下排列了 */
+
+.timeline_ul li {
+    float: left;
+    width: 100%;
+    height: 105px;
+}
+
+.dot {
+    float: left;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background:blueviolet;
+    margin-bottom: -4px;
+}
+
+.item {
+    float: left;
+    height: 95px;
+    border-left: 1px solid black;
+    margin-left: -5px;
+    margin-top: 10px;
+}
+
+.tips {
+    float: left;
+    margin-left: 10px;
+    margin-top: -21px;
+}
+
+.tips p {
+    /* 不换行 */
+    white-space: nowrap;
+}
+
+.review-title {
+    margin-bottom: 0px;
+}
+
+.review-time {
+    margin: 4px 0px;
+}
+
+.review-content {
+    margin: 6px 0px;
+}
+
+.timeline_ul li:last-child {
+    color: #1890ff;
+}
+/* 隐藏最后一个进度的横线 */
+
+.timeline_ul li:last-child .item {
+    display: none;
+}
+#slideshow {
+    width: 800px;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+    margin: 50px auto;
+}
+
+#pre {
+    position: absolute;
+    top: 300px;
+    left: 200px;
+    width: 50px;
+    height: 100px;
+    font-size: 40px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+#next {
+    position: absolute;
+    top: 300px;
+    left: 1000px;
+    width: 50px;
+    height: 100px;
+    font-size: 40px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+#imglist li {
+    position: absolute;
+    opacity: 0;
+}
+
+#dotlist {
+    position: absolute;
+    bottom: 30px;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#dotlist > li {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: rgb(244, 108, 174);
+    opacity: 0.3;
+    cursor: pointer;
+    user-select: none;
+}
+
+#imglist > li.appear,
+#dotlist > li.appear {
+    opacity: 1;
+}
+
+
+#player{
+    position: relative;
+    top: 100px;
+    left:200px;
+}
+/* 歌曲信息模块 */
+#player-content1{
+    position: absolute;
+    top:0px;
+    left:15px;
+    width:320px;
+    height:90px;
+    padding:0 20px 0 130px;
+    background: rgb(209, 226, 245);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    /* transition过渡动画：设置top属性过渡，过渡时间0.3s,速度曲线为ease(逐渐变慢) */
+    transition:top 0.3s ease; 
+}
+#player-content1.active{
+    top:-85px;
+}
+.music-name,
+.artist-name{
+    height: 20px;
+    margin-top:5px;
+    font-size:14px;
+}
+.artist-name{
+    font-size:12px;
+    color: #656565
+}
+.time{
+    font-size:12px;
+    height:15px;
+    margin: 5px 0;
+}
+.current-time{
+    float: left;
+}
+.total-time{
+    float: right;
+}
+.current-time,.total-time{
+    color: transparent;
+    font-size: 11px;
+    background-color: #e8f5ff;
+    border-radius: 10px;
+    transition: 0.3s ease all;
+}
+.time.active .current-time, .time.active .total-time{
+    color: rgb(54, 127, 196);
+    background-color: transparent;
+}
+
+
+#s-area, #seek-bar{
+    position: relative;
+    height: 4px;
+    border-radius: 4px;
+}
+
+#s-area{
+    background-color:#e8f5ff;
+    cursor: pointer;
+}
+
+#ins-time{
+    position: absolute;
+    top: -29px;
+    color: #fff;
+    font-size: 12px;
+    white-space: pre;
+    padding: 5px 6px;
+    border-radius: 4px;
+	display:none;
+}
+
+#s-hover{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.2;
+    z-index: 2;
+}
+
+#ins-time, #s-hover{
+    background-color: #4b4d5c;
+}
+
+#seek-bar{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    background-color: rgb(54, 127, 196);
+    transition: 0.2s ease width;
+}
+
+#player-content2{
+    position: relative;
+    width:350px;
+    height:90px;
+    
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 30px 80px #656565;
+}
+/* 左侧封面图模块 */
+.music-imgs{
+    position: absolute;
+    top: -40px;
+    width: 100px;
+    height: 100px;
+    margin-left: 30px;
+    -webkit-transform: rotateZ(0);
+    transform: rotateZ(0);
+    transition: 0.3s ease all;
+    box-shadow: 0 0 0 10px #fff;
+    border-radius: 50%;
+    overflow: hidden;
+}
+/* 左侧封面图模块添加了active类名 */
+.music-imgs.active{
+    top: -50px;
+    box-shadow: 0 0 0 4px #e8f5ff, 0 30px 50px -15px #afb7c1;
+}
+.music-imgs:before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    margin: -10px auto 0 auto;
+    background-color: #d6dee7;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 2px #fff;
+    z-index: 2;
+}
+/* 左侧封面图模块下的 图片div */
+.music-imgs .img{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/* 封面图模块添加了active类名后，图片div的样式添加 */
+.music-imgs.active .img{
+    z-index: 1;
+    -webkit-animation: rotateAlbumArt 3s linear 0s infinite forwards;
+            animation: rotateAlbumArt 3s linear 0s infinite forwards;
+}
+@-webkit-keyframes rotateAlbumArt
+{
+    0%{ -webkit-transform: rotateZ(0); transform: rotateZ(0); }
+    100%{ -webkit-transform: rotateZ(360deg); transform: rotateZ(360deg); }
+}
+
+@keyframes rotateAlbumArt
+{
+    0%{ -webkit-transform: rotateZ(0); transform: rotateZ(0); }
+    100%{ -webkit-transform: rotateZ(360deg); transform: rotateZ(360deg); }
+}
+#buffer-box
+{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    height: 13px;
+    color: #1f1f1f;
+    font-size: 13px;
+    font-family: Helvetica;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1;
+    padding: 6px;
+    margin: -12px auto 0 auto;
+    background-color: rgba(255, 255, 255, 0.19);
+    opacity: 0;
+    z-index: 2;
+}
+
+.music-imgs .img, #buffer-box
+{
+    transition: 0.1s linear all;
+}
+
+.music-imgs.buffering .img
+{
+    opacity: 0.25;
+}
+
+.music-imgs.buffering .img.active
+{
+    opacity: 0.8;
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+}
+
+.music-imgs.buffering #buffer-box
+{
+    opacity: 1;
+}
+
+.player-controls{
+    position: absolute;
+    top:20px;
+    left:150px;
+}
+.player-controls .btn{
+    float: left;
+    width:60px;
+    height:60px;
+    line-height: 60px;
+    font-size:40px;
+    color:#D6DEE7;
+}
+
+.clock{
+    float:right;
+   width: 150px;
+   height: 150px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background: url('../图片/clock.webp');
+    background-position: right;
+    background-size: cover;
+    border: 4px solid #091921;
+    border-radius: 50%;
+    box-shadow: 0 -15px 15px rgba(255,255,255,0.05),
+    inset 0 -15px 15px rgba(255,255,255,0.05),0 15px 15px rgba(0,0,0,0.3),
+    inset 0 -15px -15px rgba(0,0,0,0.3);
+}
+.clock:before{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: darkslateblue;
+    border-radius: 50%;
+    z-index: 10000;
+}
+.clock .hour,.clock .min,.clock .sec{
+    position: absolute;
+}
+.clock .hour .hr{
+    width: 70px;
+    height: 70px;
+}
+.clock .min .mn{
+    width: 100px;
+    height: 100px;
+}
+.clock .sec .sc{
+    width: 130px;
+    height: 130px;
+}
+.hr,.mn,.sc{
+    display: flex;
+    justify-content: center;
+    position:absolute;
+    border-radius: 50%;
+}
+.hr:before{
+    content: '';
+    position:absolute;
+    width: 8px;
+    height: 40px;
+    background-color: orangered;
+    z-index: 10;
+    border-radius: 6px 6px 0 0;
+    margin-left: 76px;
+}
+.mn:before{
+    content: '';
+    position: absolute;
+    width: 4px;
+    height: 50px;
+    background-color: #1f1f1f;
+    z-index: 11;
+    border-radius: 6px 6px 0 0;
+    margin-left: 93px;
+}
+.sc:before{
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 75px;
+    background-color: red;
+    z-index: 11;
+    border-radius: 6px 6px 0 0;
+    margin-left: 114px;
+}
